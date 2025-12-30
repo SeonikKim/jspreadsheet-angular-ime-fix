@@ -1,0 +1,11 @@
+name: 버그 리포트
+description: IME 입력 관련 버그 제보
+title: "[버그] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: 요약
+    validations:
+      required: true
